@@ -1,11 +1,10 @@
 {
   "name": "image-handle",
   "version": "1.0.0",
-  "description": "图片压缩处理",
+  "description": "图片处理",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "cc": "node ConvComp.js"
   },
   "author": "FanJunyang",
   "license": "ISC",
