@@ -1,0 +1,15 @@
+{
+  "name": "image-handle",
+  "version": "1.0.0",
+  "description": "图片压缩处理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "FanJunyang",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.33.3"
+  }
+}
