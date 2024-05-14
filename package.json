@@ -1,0 +1,21 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "工具库",
+  "scripts": {
+    "cc": "node ./image-handle/ConvComp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junyangfan/tools.git"
+  },
+  "author": "FanJunyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junyangfan/tools/issues"
+  },
+  "homepage": "https://github.com/junyangfan/tools#readme",
+  "dependencies": {
+    "sharp": "^0.33.3"
+  }
+}

@@ -1,12 +1,13 @@
 // 图片转化压缩
 const fs = require('fs');
 const path = require('path');
+const resolve = path.resolve;
 const sharp = require('sharp');
 
 // 配置项
 const config = {
-  inputDir: './input',
-  outputDir: './output',
+  inputDir: resolve(__dirname, './input'),
+  outputDir: resolve(__dirname, './output'),
   // sharp的配置选项，优先考虑无损压缩
   sharpOptions: {
     // 对于JPEG和PNG，使用较高质量以接近无损效果
